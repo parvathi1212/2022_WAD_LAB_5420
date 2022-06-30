@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Customer Survey</h1>
+        <form name = 'customersurvey'>
+            <label for = 'cname'>Enter name:</label>
+            <input type = "text" id = 'cname' name = 'cname'><br><br>
+
+            <label for = 'address'>Enter address:</label>
+            <textarea rows = 10 cols = 10 id = 'address'></textarea><br><br>
+
+            <label for = 'gender'>Gender:</label>
+            <input type = 'radio' name= 'gen'>Male
+            <input type = 'radio' name = 'gen'>Female<br><br>
+
+            <label for = 'languages'>Languages Known:</label>
+            <input type = 'checkbox' value = 'telugu'>Telugu
+            <input type = 'checkbox' value = 'hindi'>Hindi
+            <input type = 'checkbox' value = 'english'>English<br><br>
+
+            <label for = 'city'>Select your city:</label>
+            <select id = 'city'>
+                <option value = 'mumbai'>Mumbai</option>
+                <option value = 'hyderabad'>Hyderabad</option>
+                <option value = 'chennai'>Chennai</option>
+            </select><br><br>
+            <input type = 'submit'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type = 'reset'>
+        </form>
+    </center>
+</body>
+</html>
